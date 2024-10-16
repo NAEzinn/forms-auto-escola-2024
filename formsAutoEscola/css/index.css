@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(252, 0, 126);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5%;
+}
+
+p {
+    background-color: pink;
+    color: black;
+}
+
+img {
+    max-width: 400px;
+    max-height: 300px;
+    border: 3px, solid, rgb(255, 0, 64);
+    border-radius: 3%;
+    display: block; /* Necessário para o margin funcionar */
+    margin-left: auto; /* aqui */
+    margin-right: auto; /* e aqui */
+}
+
+#coracao {
+    color: red;
+
+}
+
+#coracao1 {
+    color: purple;
+    background-color: #ebcda1;
+    font-size: large;
+}
+
+#coracao2 {
+    color: crimson;
+    background-color: #ebcda1;
+    font-size: large;
+}
+
+#coracao3 {
+    color: deeppink;
+    background-color: #ebcda1;
+    font-size: large;
+}
+
+#coracao4 {
+    color: yellow;
+    background-color: #ebcda1;
+    font-size: large;
+}
+
+
+main {
+    display: block;
+    border: 3px ,solid, rgb(255, 255, 255);
+    max-width: 800px;
+    max-height: 700px;
+    margin-left: auto; /* aqui */
+    margin-right: auto; /* e aqui */
+    padding: 30px;
+    background-color: pink;
+}
+
+
+#menu {
+    background-color: pink;
+    margin: 10px;
+    padding: 20px;
+   
+}
+
+a {
+    text-decoration: none;
+    background-color: #ebcda1;
+    color: deeppink;
+}
+
+
+/* From Uiverse.io by Praashoo7 */ 
+button {
+    outline: none;
+    color: crimson;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border: 2px dashed crimson;
+    border-radius: 15px;
+    background-color: #ebcda1;
+    box-shadow: 0 0 0 4px #ebcda1, 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+    transition: .1s ease-in-out, .4s color;
+    text-decoration: none;
+    
+  }
+  
+  button:active {
+    transform: translateX(0.1em) translateY(0.1em);
+    box-shadow: 0 0 0 4px #ebcda1, 1.5px 1.5px 2.5px 1.5px rgba(0, 0, 0, 0.5);
+  }
+
+footer {
+    padding: 10px;
+    color: black;
+    margin: 20px;
+}
